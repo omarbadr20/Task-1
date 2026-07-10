@@ -18,7 +18,7 @@ The categories are:
 
 The training dataset has high class imbalance, with the majority of samples belonging to the **Normal** and **Diabetic Retinopathy** classes.
 
-![Class Distribution](Photos/class distripution.png)
+![class distribution](Photos/different classes.png)
 
 ### Training Set Sample Counts
 *   **Normal:** 3,808
@@ -31,7 +31,7 @@ The training dataset has high class imbalance, with the majority of samples belo
 *   **Hypertension:** 71
 
 ---
-
+Photos/different classes.png
 ## 2. Sample Fundus Images
 
 Below are representative fundus images from each of the eight clinical classes used during training:
