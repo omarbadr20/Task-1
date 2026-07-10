@@ -18,7 +18,7 @@ The categories are:
 
 The training dataset has high class imbalance, with the majority of samples belonging to the **Normal** and **Diabetic Retinopathy** classes.
 
-![class distribution](Photos/different classes.png)
+![class distribution](Photos/class distripution.png)
 
 ### Training Set Sample Counts
 *   **Normal:** 3,808
