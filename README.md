@@ -35,7 +35,7 @@ The training dataset has high class imbalance, with the majority of samples belo
 
 Below are representative fundus images from each of the eight clinical classes used during training:
 
-![Sample Fundus Images]('Photos/different_classes.png')
+![Sample Fundus Images](Photos/different_classes.png)
 
 ---
 
