@@ -18,7 +18,7 @@ The categories are:
 
 The training dataset has high class imbalance, with the majority of samples belonging to the **Normal** and **Diabetic Retinopathy** classes.
 
-![Class Distribution](Photos/class_distribution.png)
+![Class Distribution](Photos/class distripution.png)
 
 ### Training Set Sample Counts
 *   **Normal:** 3,808
@@ -48,7 +48,7 @@ A custom Convolutional Neural Network (CNN) was trained from scratch for 50 epoc
 
 The plots below display the training and validation progress across 50 epochs for loss, accuracy, precision, recall, and macro F1-score:
 
-![CNN Training Metrics](Photos/CNN_Trianing_Results.png)
+![CNN Training Metrics](Photos/CNN_Training_Results.png)
 
 ### Test Set Performance (Custom CNN)
 
