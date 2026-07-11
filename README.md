@@ -77,11 +77,11 @@ A pre-trained ResNet50 model was adapted and fine-tuned on the fundus images.
 
 It is critical to use ResNet50's official preprocessing function: `tf.keras.applications.resnet50.preprocess_input(img)`. When using standard [0, 1] scaling (as used for the custom CNN), the model is unable to learn effectively, failing to outperform the from-scratch CNN. This incorrectly preprocessed training run is illustrated below:
 
-![ResNet50 Incorrect Preprocessing Metrics](Photos/ResNet50_Incorrect_Preprocessing.png)
+![ResNet50 Incorrect Preprocessing Metrics](Photos/Transfer_Training_Results_incorrect_preprocess.png)
 
 With the correct preprocessing function applied, the training and validation progress across 50 epochs is plotted below:
 
-![ResNet50 Training Metrics](Photos/ResNet50_Training_Results.png)
+![ResNet50 Training Metrics](Photos/Transfer_Training_Results_Last.png)
 
 ### Test Set Performance (ResNet50)
 
